@@ -1,0 +1,81 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Baguette BBQ",
+            "image": "baguette-bbq.jpg",
+            "price": "0.90",
+            "favorite": true
+        },
+        {
+            "id": 2,
+            "name": "Baguette Classique",
+            "image": "baguette-classique.jpg",
+            "price": "0.90",
+            "favorite": false
+        },
+        {
+            "id": 3,
+            "name": "Baguette Louise multi-céréales",
+            "image": "baguette-louise-multi-céréales.jpg",
+            "price": "0.90",
+            "favorite": true
+        },
+        {
+            "id": 4,
+            "name": "Baguette Louise poivre et sel",
+            "image": "baguette-louise-poivre-sel.jpg",
+            "price": "0.90",
+            "favorite": false
+        },
+        {
+            "id": 5,
+            "name": "Baguette Louise",
+            "image": "baguette-louise.jpg",
+            "price": "0.90",
+            "favorite": true
+        },
+        {
+            "id": 6,
+            "name": "Les louisettes",
+            "image": "louisettes.jpg",
+            "price": "0.90",
+            "favorite": false
+        },
+        {
+            "id": 7,
+            "name": "Pain aux noix",
+            "image": "pain-aux-noix.jpg",
+            "price": "0.90",
+            "favorite": true
+        },
+        {
+            "id": 8,
+            "name": "Pain de campagne multi-céréales",
+            "image": "pain-campagne-multi-céréales.jpg",
+            "price": "0.90",
+            "favorite": false
+        },
+        {
+            "id": 9,
+            "name": "Pain Louise boulot",
+            "image": "pain-louise-boulot.jpg",
+            "price": "0.90",
+            "favorite": true
+        },
+        {
+            "id": 10,
+            "name": "Pain Louise platine",
+            "image": "pain-louise-platine.jpg",
+            "price": "0.90",
+            "favorite": false
+        },
+        {
+            "id": 11,
+            "name": "Pain raisin sec et noisettes",
+            "image": "pain-raisins-sec-noisettes.jpg",
+            "price": "0.90",
+            "favorite": true
+        }
+    ]
+}

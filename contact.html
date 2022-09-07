@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content='Notre boulangerie-pâtisserie vous propose diverses spécialités sur commande. Le midi, un coin snacking est mis à votre disposition avec des sandwichs et autres mets. Nous vous invitons à nous consulter lors de vos anniversaires, mariages et autres événements, nous saurons en faire un moment de plaisir gastronomique. Tous nos produits sont "faits maison". Contactez-nous pour plus de renseignements.' />
+    <meta name ="keywords" content ="Ales, boulangerie, pâtisserie" />
+    <meta name = "author" content ="Yacine Ponsot" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../assets/img/icon.png" />
+    <title>Contact | Le Moulin Cévenol</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/></head>
+    <link rel="stylesheet" href="//unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css" type="text/css">
+<body>
+    <header class="height-nav navbar-fixed">
+        <nav class="navigation-menu semi-transparent">
+            <div class=" nav-wrapper nav-flex margin_side">
+                <a class="logo-nav" href="./home" title="Bienvenue"><img id="logo" class="background-logo-nav" src="../assets/img/logo.png" alt="Logo de Moulin Cévenol"></a>
+                <ul class="nav-flex">
+                    <li><a class="link" href="./home" title="Bienvenue">Accueil</a></li>
+                    <li><a class="link" href="./recipes" title="Liste des recette de la boulangerie">Notre carte</a></li>
+                    <li><a class="link" href="./contact" title="Nous contacter">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="map"></section>
+        <section class="margin_side">
+            <h3 class="primary-color">Contactez nous</h3>
+            <p>Le Moulin Cévenol</p>
+            <p>2 Bis Avenue Marcel Cachin, Les Près Rasclaux</p>
+            <p>30100 Alès</p>
+            <p>France</p>
+        </section>
+        <section class="margin_side">
+            <form class="form-contact" action="mailto:oryane.giannoli@sfr.fr" method="get" enctype="text/plain">
+                <p class="form-input">Nom: <input type="text" name="name" /></p>
+                <p class="form-input">Email: <input type="text" name="email" /></p>
+                <p class="form-input">
+                Message:
+                    <br />
+                    <textarea placeholder="Votre message" rows="12" cols="35"></textarea>
+                    <br />
+                </p>
+                <p class="nav-flex">
+                    <input id="condition-contact" type="checkbox">
+                    <label class="label-condition-contact" for="condition-contact">En soumettant ce formulaire, j’accepte que les informations saisies dans ce formulaire soient utilisées, exploitées, traitées pour seulement permettre de me recontacter.</label>
+                </p>
+                <p class="nav-flex">
+                    <button type="submit" class="buttom-submit">Envoyer</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="container margin_side nav-flex item-top">
+            <div>
+                <h3>Réseaux sociaux</h3>
+                <ul class="nav-flex" id="social-network">
+                    <li><a class="link" href="https://www.facebook.com" title="Nous suivre sur Facebook"><img id="facebook-logo" src="../assets/img/facebook.png" alt="Logo de Facebook"></a></li>
+                    <li><a class="link" href="https://www.instagram.com/" title="Venez découvrir nos créations"><img id="instagram-logo" src="../assets/img/instagram.png" alt="Logo de Instagram"></a></li>
+                </ul>
+            </div>
+            <div id="about-us">
+                <h3>Notre boulangerie</h3>
+                <ul>
+                    <li><a class="link" href="./notices" title="Consultez les mentions légales">Mentions légales</a></li>
+                    <li><a class="link" href="#about" title="En savoir plus sur nous">A propos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contactez nous</h3>
+                <p class="title">Adresse</p>
+                <p>Le Moulin Cévenol</p>
+                <p>2 Bis Avenue Marcel Cachin, Les Près Rasclaux</p>
+                <p>30100 Alès</p>
+                <p>France</p>
+                <div class="divider"></div>
+                <p class="title">Téléphone</p>
+                <p>04 66 52 33 21</p>
+                <div class="divider"></div>
+                <p class="title">Nous contacter</p>
+                <p>oryane.giannoli@sfr.fr ou sur notre <a class="link color-secondary" href="./contact" title="Nous contacter">page de contact</a>.</p>
+            </div>
+        </section>
+        <section class="copyright">
+            <div>
+                <p>© 2022 Touts droits réservé - Le Moulin Cévenol - Boutique en ligne par Yacine Ponsot</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script></body>
+    <script src="//unpkg.com/leaflet-gesture-handling"></script>
+    <script src="../assets/js/leaftleft.js"></script>
+</html>
